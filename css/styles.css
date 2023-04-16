@@ -162,7 +162,10 @@ button {
 }
 
 .style-title {
-  max-width: 496px
+  max-width: 496px;
+margin-right: auto;
+margin-left: auto;
+text-align: center;
 }
 
 .main-title {
@@ -188,6 +191,8 @@ button {
   min-width: 169px;
   height: 56px;
   border: none;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .btn-order-service:hover,
@@ -208,6 +213,10 @@ button {
 
 .flex-hero {
   padding: 188px 0;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background/hero_fon.jpg);
+  background-size: cover;
+  background-color: 8E8F99;
+  align-items: center;
 }
 
 /* ------Section 1------ */
@@ -296,6 +305,31 @@ button {
 
 .flex-card-text {
   text-align: center;
+}
+.social-list {
+  display: flex;
+  align-items: center;
+}
+/* Section 4 */
+.social-list-four {
+  display: flex;
+  align-items: center;
+}
+.forth-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+padding-top: 120px;
+margin-bottom: 72px;
+}
+.content-svg {
+  display: flex;
+  align-items: center;
+  padding-bottom: 120px;
 }
 
 /* ------Footer------ */
