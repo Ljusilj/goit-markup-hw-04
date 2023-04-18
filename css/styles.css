@@ -1,5 +1,6 @@
 :root {
   --primery-font: 'Roboto', sans-serif;
+  --fon-colour-hover: #404bbf;
 }
 
 body {
@@ -353,7 +354,7 @@ button {
 
 .social-list-link:hover,
 .social-list-link:focus {
-  background-color: #404bbf;
+  background-color: var(--fon-colour-hover:);
 }
 
 .social-list-icon {
