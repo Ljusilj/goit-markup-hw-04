@@ -392,10 +392,6 @@ button {
   height: 88px;
 }
 
-.customers-list-item>.customers-list-link {
-  width: 100%;
-  height: 100%;
-}
 .customers-list-link {
   border: 1px solid #8e8f99;
   border-radius: 4px;
@@ -403,6 +399,8 @@ button {
   align-items: center;
   justify-content: center;
   color: #8e8f99;
+  width: 100%;
+  height: 100%;
 }
 
 .customers-list-link:hover,
@@ -468,15 +466,15 @@ button {
   gap: 16px;
 }
 
-.primary-content {
+.footer-content-logo {
   width: 264px;
   height: 112px;
   margin-left: 156px;
   margin-bottom: 100px;
-  margin-right: 120px;
+  gap: 120px;
 }
 
-.secondary-content {
+.footer-content-icons {
   width: 208px;
   height: 80px;
 }
