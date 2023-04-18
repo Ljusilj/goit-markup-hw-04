@@ -399,8 +399,8 @@ button {
   align-items: center;
   justify-content: center;
   color: #8e8f99;
-  width: 100%;
-  height: 100%;
+  width: 168px;
+  height: 88px;
 }
 
 .customers-list-link:hover,
